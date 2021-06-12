@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>http://devlandunion.com/</loc>
+        <lastmod>2021-06-12</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://devlandunion.com/posts/depreacating-sass-in-themes</loc>
+        <lastmod>2021-06-12</lastmod>
+    </url>
+    <url>
+        <loc>https://devlandunion.com/posts/how-to-install-web-crawler-app</loc>
+        <lastmod>2021-06-12</lastmod>
+    </url>
+    <url>
+        <loc>https://devlandunion.com/posts/about-laravel</loc>
+        <lastmod>2021-06-12</lastmod>
+    </url>
+    <url>
+        <loc>https://devlandunion.com/posts/ssg-ssr</loc>
+        <lastmod>2021-06-12</lastmod>
+    </url>
+    <url>
+        <loc>https://devlandunion.com/posts/pre-rendering</loc>
+        <lastmod>2021-06-12</lastmod>
+    </url>
+
+</urlset>
