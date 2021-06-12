@@ -17,8 +17,8 @@ export default function Home({ allPostsData }) {
 			<section>
 				<h2>Profile</h2>
 				<p>
-					Technically sophisticated, competent, and innovative IT
-					professional, with experience in web & hybrid mobile
+					Technically sophisticated, competent, and innovative Software engineer, 
+					with experience in web & hybrid mobile
 					programming, business analysis, IT management, business
 					intelligence, and integration of enterprise applications. I
 					am also a full-stack software engineer currently conducting
