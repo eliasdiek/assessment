@@ -115,7 +115,7 @@ export default function Home({ allPostsData }) {
         <h2>Links</h2>
         <ul>
           <li>
-            <a href="https://linkedin.com/in/yuyuan-zhang-176167207" target="_blank">Linkedin</a>
+            <a href="https://www.linkedin.com/in/david-zhang-176167207" target="_blank">Linkedin</a>
           </li>
           <li>
             <a href="https://github.com/lambdadev007" target="_blank">Github</a>
