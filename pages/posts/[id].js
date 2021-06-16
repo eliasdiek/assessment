@@ -3,8 +3,12 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
 import utilStyles from '../../styles/utils.module.css'
+import { DiscussionEmbed } from 'disqus-react';
+import { useRouter } from 'next/router';
 
 export default function Post({ postData }) {
+    const router = useRouter();
+
     return (
         <Layout>
             <Head>
@@ -17,6 +21,18 @@ export default function Post({ postData }) {
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
             </article>
+            
+            <DiscussionEmbed
+                shortname="devlandunion"
+                config={
+                    {
+                        url: `https://devlandunion.com/${router.pathname}`,
+                        identifier: postData.id,
+                        title: postData.title,
+                        language: 'en_US'
+                    }
+                }
+            />
         </Layout>
     )
 }

@@ -12,8 +12,6 @@ class MyDocument extends Document {
 		return (
 			<Html>
 				<Head>
-					<title>David Zhang | Full Stack Developer</title>
-
 					<link rel="shortcut icon" href="/favicon.png" type="image/png" />
 
 					<meta name="title" content="David Zhang | Full Stack Developer" />
